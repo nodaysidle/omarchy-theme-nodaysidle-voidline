@@ -1,0 +1,56 @@
+# nodaysidle Voidline — Master Palette
+# Inspired by neovoid & telemetry cockpits.
+# Pitch OLED void with razor-sharp laser cyan, cobalt telemetry, and icy white text.
+
+mode = "dark"
+theme_type = "dark"
+
+accent = "#00E5FF"
+selection = "#002B36"
+selection_foreground = "#FFFFFF"
+muted = "#3A4454"
+
+background = "#000000"
+dark_background = "#000000"
+darker_background = "#000000"
+lighter_background = "#07080B"
+
+foreground = "#EEF2F6"
+dark_foreground = "#334155"
+light_foreground = "#64748B"
+bright_foreground = "#FFFFFF"
+
+# Vibrant laser & telemetry signals
+red = "#FF0055"
+yellow = "#00CFFF"
+orange = "#FF5500"
+green = "#00FFB2"
+cyan = "#00E5FF"
+blue = "#1E90FF"
+magenta = "#8A2BE2"
+brown = "#5C4033"
+
+bright_red = "#FF3377"
+bright_yellow = "#66E5FF"
+bright_green = "#33FFC7"
+bright_cyan = "#66F0FF"
+bright_blue = "#66B2FF"
+bright_magenta = "#B366FF"
+
+# ANSI compatibility
+color0 = "#000000"
+color1 = "#FF0055"
+color2 = "#00FFB2"
+color3 = "#00CFFF"
+color4 = "#1E90FF"
+color5 = "#8A2BE2"
+color6 = "#00E5FF"
+color7 = "#EEF2F6"
+color8 = "#3A4454"
+color9 = "#FF3377"
+color10 = "#33FFC7"
+color11 = "#66E5FF"
+color12 = "#66B2FF"
+color13 = "#B366FF"
+color14 = "#66F0FF"
+color15 = "#FFFFFF"

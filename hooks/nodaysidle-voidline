@@ -1,0 +1,9 @@
+#!/bin/bash
+# Omarchy Theme Hook for nodaysidle Voidline
+set -euo pipefail
+
+THEME="${1:-}"
+
+if [[ "$THEME" == "nodaysidle-voidline" || "$THEME" == "Nodaysidle Voidline" ]]; then
+  echo "[nodaysidle-voidline] Applied theme hook"
+fi

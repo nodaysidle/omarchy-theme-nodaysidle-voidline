@@ -1,0 +1,78 @@
+# Omarchy Shell Surfaces for nodaysidle Voidline
+# Pitch OLED Void & Razor-Sharp Laser Cyan
+
+[bar]
+background       = "#000000"
+background-alpha = 1.00
+text             = "#EEF2F6"
+active           = "#00E5FF"
+scale-with-font  = true
+size-horizontal  = 26
+size-vertical    = 28
+
+[hyprland]
+active-border            = "#00E5FF"
+active-border-foreground = "#00E5FF"
+
+[controls]
+normal-color        = "#334155"
+normal-fill-alpha   = 0.08
+normal-border       = "#1E293B"
+normal-border-width = 1
+normal-border-alpha = 0.70
+
+hover-cursor-color        = "#00E5FF"
+hover-cursor-fill-alpha   = 0.20
+hover-cursor-border       = "#00E5FF"
+hover-cursor-border-width = 1
+hover-cursor-border-alpha = 0.90
+
+focus-color        = "#00E5FF"
+focus-fill-alpha   = 0.16
+focus-border       = "#00E5FF"
+focus-border-width = 1
+focus-border-alpha = 0.95
+
+selected-color        = "#EEF2F6"
+selected-fill-alpha   = 0.25
+selected-border       = "#00E5FF"
+selected-border-width = 1
+selected-border-alpha = 1.00
+
+pressed-fill-alpha   = 0.35
+selection-fill-alpha = 0.45
+
+[font]
+base-size = 11
+
+[popups]
+background       = "#000000"
+background-alpha = 1.00
+text             = "#EEF2F6"
+border           = "#00E5FF"
+border-alpha     = 0.75
+
+[tooltip]
+background       = "#000000"
+background-alpha = 1.00
+text             = "#00E5FF"
+border           = "#005577"
+border-alpha     = 0.85
+
+[notifications]
+background       = "#000000"
+background-alpha = 1.00
+text             = "#EEF2F6"
+border           = "#00E5FF"
+border-alpha     = 0.90
+urgency-low      = "#334155"
+urgency-normal   = "#00E5FF"
+urgency-critical = "#FF0055"
+
+[osd]
+background       = "#000000"
+background-alpha = 0.98
+text             = "#EEF2F6"
+border           = "#00E5FF"
+border-alpha     = 0.80
+fill             = "#00E5FF"

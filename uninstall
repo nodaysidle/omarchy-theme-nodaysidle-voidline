@@ -1,0 +1,10 @@
+#!/bin/bash
+# Uninstaller for nodaysidle Voidline
+set -euo pipefail
+
+TARGET_DIR="$HOME/.config/omarchy/themes/nodaysidle-voidline"
+HOOK_FILE="$HOME/.config/omarchy/hooks/theme-set.d/nodaysidle-voidline"
+
+rm -rf "$TARGET_DIR"
+rm -f "$HOOK_FILE"
+echo "✔ Removed nodaysidle-voidline links"
